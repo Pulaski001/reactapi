@@ -1,0 +1,41 @@
+/* src/UserList.css */
+
+.user-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.user-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.user-name {
+    font-size: 1.5rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.user-email, .user-phone, .user-website {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
